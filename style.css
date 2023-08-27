@@ -208,28 +208,6 @@ h2 {
     opacity: 0.7;
 }
 
-.nav_main_div .nav_bar ul li:hover {
-    animation: rotate-text 1s ease-in-out;
-}
-
-@keyframes rotate-text {
-    0% {
-        transform: rotateX(50deg);
-    }
-
-    50% {
-
-        transform: rotateX(90deg);
-
-    }
-
-    100% {
-
-        transform: rotateX(0deg);
-
-    }
-}
-
 /* Toogle button */
 .cross_bar {
     display: none;
