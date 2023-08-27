@@ -1,0 +1,306 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav_bar img {
+        width: 20%;
+    }
+}
+
+/*-------------- Testimonials --------------*/
+.left_div_testimonial img {
+    width: 100%;
+    padding-right: 40px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    /* <!---------------- Top-Contact-navbar ----------------> */
+    /* <!------------------ NavBar Section ------------------> */
+    .nav_main_div {
+        position: relative;
+    }
+
+    .nav_bar .bar_menus {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--white);
+        width: 100%;
+        height: 100vh;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        padding: 60px 30px;
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+
+    .nav_main_div .nav_bar .bar_menus li {
+        padding: 20px 0;
+    }
+
+    .open {
+        transform: translateX(0%) !important;
+    }
+
+    /* Toggle bar */
+    .toogle_bar {
+        display: block;
+
+    }
+
+    .cross_bar {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 25px;
+    }
+
+    .hero_content_left {
+        width: 60%;
+    }
+
+
+    /* <!------------------- Hero Section -------------------> */
+    /* <!----------------- Card 2nd Section  -----------------> */
+    .card_section_main_div_teams {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* <!------------------ About Us Section ------------------> */
+    .about_main_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .left_about_div {
+        justify-content: center;
+    }
+
+    .left_about_div img {
+        width: 50%;
+    }
+
+    .left_about_div div img {
+        width: 100%;
+    }
+
+    .left_about_div,
+    .right_about_div {
+        width: 100%;
+    }
+
+    .heading_Aboutus,
+    .heading_Aboutus p {
+        width: 100%;
+    }
+
+    /* <!-------------------- Our Services --------------------> */
+    .main_div_services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .heading_services {
+        width: 100%;
+    }
+
+    /* <!------------------- Latest Articles -------------------> */
+    .articles_div_in {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card_div_article img {
+        width: 100%;
+    }
+
+    .heading_articles {
+        width: 100%;
+    }
+
+    .bg_articles_div {
+        padding: 50px 0;
+    }
+
+    .heading_articles p {
+        margin-top: 10px;
+    }
+
+    /* <!----------------- Testimonials Section -----------------> */
+    .left_div_testimonial img {
+        width: 100%;
+    }
+
+    .left_div_testimonial img {
+        padding-right: 0;
+    }
+
+    .left_div_testimonial {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .right_div_testimonial {
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* .testimonials {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+    .testimonials {
+        display: unset;
+    }
+
+    #testimonial_slider {
+        padding: 20px 30px;
+    }
+
+    .arrow_carousel {
+        bottom: 1%;
+
+    }
+
+    /* <!------------------ Contact Us Section ------------------> */
+    .form_div_main {
+        width: 100%;
+    }
+
+    .heading_contactus {
+        width: 100%;
+    }
+
+    /* <!-------------------- Footer Section --------------------> */
+    .footer_main_div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .left_footer p {
+        padding-right: 0;
+    }
+
+
+}
+
+@media (max-width: 780px) {
+
+
+    body p {
+        font-size: 14px !important;
+    }
+
+    body h2 {
+        font-size: 35px !important;
+        line-height: 56px;
+    }
+
+    body h4 {
+        font-size: 15px;
+        line-height: 12px;
+    }
+
+    /* <!---------------- Top-Contact-navbar ----------------> */
+    .flex_div_inside_topbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right_topbar {
+        padding-top: 10px;
+    }
+
+    /* <!------------------ NavBar Section ------------------> */
+    /* <!------------------- Hero Section -------------------> */
+    .hero_content_left {
+        width: 80%;
+    }
+
+    /* <!----------------- Card 2nd Section  -----------------> */
+    /* <!------------------ About Us Section ------------------> */
+    /* <!-------------------- Our Services --------------------> */
+    /* <!------------------- Latest Articles -------------------> */
+    .articles_div_in {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* <!----------------- Testimonials Section -----------------> */
+    .right_div_testimonial h2 span {
+        font-size: 35px !important;
+        line-height: 56px;
+    }
+
+    .text_design {
+        font-size: 15px;
+        line-height: 12px;
+    }
+
+    /* <!------------------ Contact Us Section ------------------> */
+    .input_div2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .input_div2 input,
+    textarea {
+        border: none;
+        outline: none;
+        border: 1px solid var(--black);
+    }
+
+    .heading_contactus p {
+        margin-top: 10px;
+    }
+
+    /* <!-------------------- Footer Section --------------------> */
+    .footer_main_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /* <!---------------- Top-Contact-navbar ----------------> */
+    .left_topbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_topbar .first_top_a {
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    /* <!------------------ NavBar Section ------------------> */
+    .nav_bar img {
+        width: 40%;
+    }
+
+    /* <!------------------- Hero Section -------------------> */
+    .hero_content_left {
+        width: 100%;
+    }
+
+    .hero_content_left h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero_content_left h1::after {
+        width: 98%;
+    }
+
+}
